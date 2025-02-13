@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Dashboard</title>
+    <!-- Font-Awesome -->
+    <script src="https://kit.fontawesome.com/09e94a43d5.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            background-color: rgb(232, 118, 200);
+        }
+        .input-group{
+            display: flex;
+            flex-direction:column ;
+        }
+        .login-box{
+            display: flex;
+            width: 300px;
+            flex-direction: column;
+            background-color: white;
+            border-radius: 10px;
+            gap: 15px;
+            padding: 50px 30px;
+        }
+        .login-box h1{
+            text-align: center;
+        }
+        .input-group .forget-password{
+            text-align:right;
+        }
+        .input-group .input-field {
+            display: flex;
+            border-bottom: 1px solid black;
+            padding-bottom: 10px;
+        }
+         input {
+            width: 100%;
+            border: none;
+            padding: 0 10px;
+        }
+        input:focus{
+            outline: none;
+
+        }
+        .login-box .forget-password {
+            text-align: right;
+            text-decoration: none;
+            color:  black;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <h1>Login</h1>
+       <div class="input-group">
+        <label for="">UserName</label>
+      <div class="input-field">
+        <i class="fa-regular fa-user"></i>
+        <input type="text" placeholder="Type Your Username"/>
+      </div>
+       </div>
+       <div class="input-group">
+        <label for="">Password</label>
+      <div class="input-field">
+        <i class="fa-solid fa-lock"></i>
+        <input type="password" placeholder="Type Your Password"/>
+      </div>
+       </div>
+      <a href="#" class="forget-password">Forget Password?</a>
+       
+       <button>
+        <a href="#">Login</a>
+       </button>
+    </div>
+</body>
+</html>
