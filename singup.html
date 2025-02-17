@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing Up</title>
+    <style>
+        body{
+    display: flex;
+    justify-content: center;
+    /* height: 300px; */
+    background-color: lightblue;
+    font-family:"Noto Serif", serif;
+}
+
+.singup-box{
+    background-color:white;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding:  30px 50px;
+    border-radius: 10px;
+    gap: 17px;
+    
+}
+.singup-box h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 35px;
+}
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+ 
+button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    width: 100%;
+
+}
+a {
+    color: wheat;
+    text-decoration: none;
+}
+
+    </style>
+</head>
+<body>
+   
+        <div class="singup-box">
+            <h1>Sing Up</h1>
+        <div class="input-group">
+            <label for="username">Username</label>
+            <input type="text" name id="username">
+            <label for="email">E-mail</label>
+            <input type="text" name id="email">
+            <label for="password">Password </label>
+            <input type="text"name id="password" >
+            <label for=" c-password">Comfort Password</label>
+            <input type="text" name id="c-password">
+        </div>
+        <form action="">
+        <button>
+            <a href="#">Sing up</a>
+        </button>
+         </form>
+        </div>
+</body>
+</html>
